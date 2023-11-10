@@ -11,6 +11,13 @@ greet("Lacey");
 
 // Write a function that gives the approximate circumference of a circle given the diameter.
 
+function findCircumference(diameter) {
+    return Math.PI * diameter; // formula to find circumference of a circle C=pi(d)
+    
+}
+console.log(findCircumference(10)); //make sure to use console.log or it doesn't show up in console
+
+
 // Write one function that calls another function.
 
 // Inside of the first function, insert a console.log(...) statement.
